@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+
+    padding: 0;
+}
+
+.header{min-height: 100vh;
+width: 100%;
+background-image: url("futuristic-fantasy-night-landscape-with-abstract-landscape-moonlight-shine-dark-natural-scene_129911-2844.webp") ;
+background-size:cover;
+background-position: center;}
+
+.newlogo{ height: 50px;
+width: 150px;
+padding: 0;
+margin: 0;}
+
+nav{display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2% 6%;
+}
+
+.nav-link{flex: 1;
+text-align: right;}
+
+.nav-link ul li{list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;}
+
+.nav-link ul li a{color: white;
+text-decoration: none;}
+
+
+.nav-link ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: pink;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-link ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;}
+
+.text-box h1{font-size: 62px;
+}
+
+.text-box p{margin: 10px 0 40px;
+font-size: 14px;}
+
+.hot{border: 2px solid;
+color: #fff;
+background:transparent;
+text-decoration: none;
+cursor: pointer;
+padding: 12px 34px;}
+
+.hot:hover{background-color: pink;
+transition:1s;}
+
+
+
+nav .fa{display: none ;}
+
+@media(max-width: 700px)
+   
+{
+    .text-box h1{font-size: 20px;
+    }
+.li{display: block;}
+
+.nav-link ul li{display: block;}
+
+.nav-link{background-color: grey;
+height: 100vh;
+width: 200px;
+position: absolute;
+top: 0;
+right: -200px;
+text-align: left;
+z-index: 2;
+transition: 1s;}
+
+nav .fa{display: block; 
+color:#fff ;
+margin: 10px;
+cursor: pointer;}
+
+.nav-link ul {padding: 30px;}
+
+.text-box h1{font-size: 40px;
+font-weight: bolder;}
+
+.text-box p{font-size: 15px;}
+}
+
+div .row{}
+
+
+
+
+#head{min-height: 500px;
+    width: 100%;
+    background-image: url("futuristic-fantasy-night-landscape-with-abstract-landscape-moonlight-shine-dark-natural-scene_129911-2844.webp") ;
+    background-size: cover;
+    background-position: center;}
+
+
+    .head-text{width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    font-size: 60px;}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample-1</title>
+    <link rel="icon" type="image/x-icon" href="logogo.JPG">
+    <link rel="stylesheet" href="p-practice stylesheet.css">
+
+    <!---icon---->
+   
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<section class="header">
+<nav>
+<a href="built samples1.html"><img class="newlogo" src="newlogo.JPG" alt="logo"></a>
+
+<div class="nav-link" id="navLinks">
+    <i style="font-size:24px" onclick="hideMenu()"  class="fa">&#xf00d;  </i>
+
+<ul>
+    <li class=""><a href="#">HOME</a></li>
+    <li class="link-item"><a href="#">ABOUT</a></li>
+    <li class="link-item"><a href="#">CONTACT</a></li>
+    <li class="link-item"><a href="#">SKILLS</a></li>
+    <li class="link-item"><a href="#">PROJECT</a></li>
+</ul>
+
+</div>
+<i style="font-size:29px" onclick="showMenu()"  class="fa">&#xf0c9;</i>
+
+
+</nav>
+
+<div class="text-box">
+
+<h1>World Biggest University's</h1>
+<p>Making website is one of the easiest thing in the world. You just need to learn HTML, CSS, <br> JavaScript and you are good to go</p>
+
+<a href="#" class="hot">Visit Us to Know More</a>
+</div>
+
+
+</section >
+
+
+
+
+<!-------JavaScript Toggle-------->
+    <script>
+
+var navLinks = document.getElementById("navLinks")
+ 
+function showMenu(){ navLinks.style.right ="0";}
+
+function hideMenu(){ navLinks.style.right ="-200px";}
+
+    </script>
+</body>
+</html>
